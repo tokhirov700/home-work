@@ -27,9 +27,9 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="counter">Tasbiq: {count}</h1>
-      <button className="button" onClick={handleClick}>+1</button>
-      <button className="reset-button" onClick={handleReset}>Reset</button>
+      <h1 className="counter">{count}</h1>
+      <button className="button" onClick={handleClick}></button>
+      <button className="reset-button" onClick={handleReset}></button>
       <audio ref={audioRef} src={nasheed} className="hidden-audio" />
     </div>
   );
